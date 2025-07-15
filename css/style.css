@@ -334,6 +334,13 @@ header {
     color: var(--black);
 }
 
+.product-price-promo {
+    color: #2ecc40;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
 .btn-add-cart {
     display: inline-block;
     margin-top: 10px;
@@ -345,6 +352,25 @@ header {
 
 .btn-add-cart:hover {
     color: var(--neon-green);
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #25D366;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.btn-whatsapp:hover {
+    background-color: #20ba5a;
+    color: #fff;
 }
 
 /* Banner Section */
